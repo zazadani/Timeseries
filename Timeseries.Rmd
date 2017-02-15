@@ -38,6 +38,8 @@ seasnol plot()
 ?hit
 ?acfPlot
 ?acf
+?seasonplot # this belongs to "forcast" package
+
 
 qqplot(ya[,2],ya[,3])
 acf(ya)
