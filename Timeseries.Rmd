@@ -38,8 +38,9 @@ seasnol plot()
 ?hit
 ?acfPlot
 ?acf
-?seasonplot # this belongs to "forcast" package
-# you need to arrange your data like the example of "Airpassanger" timeseries table
+?seasonplot ## this plot belongs to the "forcast" package
+## you need to arrange your data like the example of "Airpassanger" timeseries table
+##seasonplot(AirPassengers, col=rainbow(12), year.labels=TRUE)
 
 
 qqplot(ya[,2],ya[,3])
