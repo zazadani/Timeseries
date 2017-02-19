@@ -47,3 +47,13 @@ qqplot(ya[,2],ya[,3])
 acf(ya)
 acf(ya, "covariance")
 pacf()
+
+----------
+#Descriptive Statistics in R 
+  #
+var(x=ya[,2], y=NULL) # Variance
+
+?cov
+  cov(x=ya[,2], y=ya[,3]) # Covariance
+  #var(x=ya[,2], y=ya[,3]) # =covariance
+
