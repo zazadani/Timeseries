@@ -66,5 +66,5 @@ var(x=ya[,2], y=NULL) # Variance
 
 ?cov
   cov(x=ya[,2], y=ya[,3]) # Covariance
-  #var(x=ya[,2], y=ya[,3]) # =covariance
+  #var(x=ya[,2], y=ya[,3]) # =Covariance
 
